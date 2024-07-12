@@ -1,0 +1,27 @@
+services:
+  progetto-fontanot-interface:
+    container_name: progetto-fontanot-interface
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "5387:5387"
+    depends_on:
+      - progetto-fontanot-sql
+    environment:
+      - PORT=5387
+      - SQL_HOST=progetto-fontanot-sql
+      - SQL_PASS=gSWkQpRn3dUhJEYzrGtK8T
+      - SQL_DATABASE=db_supermercato
+      - SQL_PORT=3306
+      - SQL_USER=root
+    restart: unless-stopped
+  progetto-fontanot-sql:
+    container_name: progetto-fontanot-sql
+    image: mariadb:10
+    environment:
+      MYSQL_ROOT_PASSWORD: gSWkQpRn3dUhJEYzrGtK8T
+      MYSQL_DATABASE: db_supermercato
+    restart: unless-stopped
+    volumes:
+      - ./mysql:/var/lib/mysql
