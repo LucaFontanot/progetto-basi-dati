@@ -1,4 +1,9 @@
 # Progetto Basi di Dati
+Il documento contiene la descrizione del progetto per l'esame di Basi di Dati.
+
+## Il progetto
+
+Il pdf del progetto è situato nel file [Progetto Basi di dati Fontanot Luca.pdf](Progetto%20Basi%20di%20dati%20Fontanot%20Luca.pdf).
 
 ## Descrizione dei files
 
@@ -38,3 +43,7 @@ docker-compose up
 ```
 
 Il progetto sarà disponibile all'indirizzo [http://localhost:5387](http://localhost:5387) dopo aver finito l'inizializzazione delle dipendenze e la compilazione del frontend.
+
+### Note
+- Durante il primo avvio del progetto è necessario attendere qualche minuto per l'inizializzazione di mariadb.
+- Durante il mocking dei dati, potrebbero venir mostrati degli avvisi di chiavi dupplicate in console, che possono essere ignorati.
