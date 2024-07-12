@@ -5,15 +5,15 @@
 ### Diagrammi ER
 I diagrammi ER sono stati realizzati con il software [draw.io](https://app.diagrams.net/).
 Files disponibili nella cartella [Diagrammi](Diagrammi).
-- [Diagramma ER Iniziale](Diagrammi/Diagramma ER Iniziale.drawio)
-- [Diagramma ER Completo](Diagrammi/Diagramma ER Completo.drawio)
+- [Diagramma ER Iniziale](Diagrammi/Diagramma%20ER%20Iniziale.drawio)
+- [Diagramma ER Completo](Diagrammi/Diagramma%20ER%20Completo.drawio)
 - [Accorpamento](Diagrammi/Accorpamento.drawio)
 
 
 ### Schema del database
 Lo schema logico del database è stato realizzato con il programma di JetBrains [DataGrip](https://www.jetbrains.com/datagrip/).
 File disponibile nella cartella [Diagrammi](Diagrammi).
-- [Schema Logico](Diagrammi/Schema Logico.png)
+- [Schema Logico](Diagrammi/Schema%20Logico.png)
 
 ### Script SQL
 Gli script SQL per la creazione delle tabelle, delle viste, delle procedure e dei triggers sono disponibili nella cartella [directives](code/directives).
