@@ -39,11 +39,11 @@ Il progetto è stato realizzato con Docker, per avviarlo è necessario avere ins
 
 Per avviare il progetto è necessario entrare nella cartella del progetto con il terminale e lanciare il comando:
 ```bash
-docker-compose up
+docker compose up
 ```
 
 Il progetto sarà disponibile all'indirizzo [http://localhost:5387](http://localhost:5387) dopo aver finito l'inizializzazione delle dipendenze e la compilazione del frontend.
 
 ### Note
 - Durante il primo avvio del progetto è necessario attendere qualche minuto per l'inizializzazione di mariadb.
-- Durante il mocking dei dati, potrebbero venir mostrati degli avvisi di chiavi dupplicate in console, che possono essere ignorati.
+- Durante il mocking dei dati, potrebbero venir mostrati degli avvisi di chiavi duplicate in console, che possono essere ignorati.
